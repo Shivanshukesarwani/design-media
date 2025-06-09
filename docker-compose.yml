@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  design-media:
+    build: .
+    container_name: design-media-ui
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+
+  # Optional: Example Jellyfin server (for local dev only; remove/comment in production)
+  # jellyfin:
+  #   image: jellyfin/jellyfin
+  #   container_name: jellyfin-server
+  #   ports:
+  #     - "8096:8096"
+  #   volumes:
+  #     - jellyfin_config:/config
+  #     - jellyfin_cache:/cache
+  #     - /path/to/your/media:/media
+  #   restart: unless-stopped
+
+volumes:
+  jellyfin_config:
+  jellyfin_cache:
