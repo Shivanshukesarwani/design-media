@@ -1,0 +1,1 @@
+// Card displaying a media item (image, title, type, favorite/watchlist button)

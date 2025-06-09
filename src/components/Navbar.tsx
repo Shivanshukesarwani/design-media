@@ -1,0 +1,1 @@
+// Shows logo, navigation links, theme toggle, search link, user avatar, login/logout

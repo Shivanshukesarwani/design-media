@@ -1,0 +1,1 @@
+// Button to add/remove a media item from watchlist/favorites

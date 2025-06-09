@@ -1,0 +1,1 @@
+// Define shared types for media items, user profiles, etc.

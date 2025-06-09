@@ -1,0 +1,1 @@
+// Admin tools for editing media metadata, artwork, etc. (protected route)
