@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   design-media:
-    build: .
+    image: shivanshukesarwani/design-media:latest  # Use your actual image name here
     container_name: design-media-ui
     ports:
       - "8080:80"
